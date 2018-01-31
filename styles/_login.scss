@@ -1,0 +1,131 @@
+.login_section{
+	background-color:#fff;
+	
+	
+}
+
+.login_img{
+	text-align: center;
+}
+
+.login_input{
+	padding: 22px 114px 40px 70px;
+}
+
+.user_inputs_login{
+	border: none;
+    border-bottom: 4px solid #00b9ee !important;
+    border-color: transparent;
+    box-shadow: none !important;
+    border-radius: 0px;
+    font-size: 20px;
+    height: auto !important;
+    padding: 20px 0;
+    font-weight: 500!important;
+}
+.login_input .form-group span a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #00b9ee;
+    font-weight: 500;
+    margin-top: 28px;
+    display: block;
+}
+input.IMDisabled {
+    width: 141px;
+    height: 41px;
+    border: 0;
+    background: #3faf6c;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 9px;
+}
+input.IMDisabled:hover {
+	background: #278a4f;
+}
+.user_inputs_login:focus{
+	outline: 0;
+}
+
+.user_inputs_login[type="email"]::placeholder{
+	color: #03326c;
+}
+.user_inputs_login[type="email"] {
+	margin-bottom: 40px; 
+}
+.user_inputs_login[type="password"]::placeholder{
+	color: #03326c;
+	opacity: 0.3;
+}
+
+.submit_button{
+	
+	background-color: green;
+	border-radius: 5px;
+	border:none;
+	color:#fff;
+	padding: 5px 20px 5px 20px;
+}
+
+.IMDisabled{
+	background-color: transparent;
+	border-radius: 5px;
+	border:1px solid #000;
+	color:#000;
+	padding: 5px 15px 5px 15px;
+}
+
+.login_text {
+    display: block;
+    color: #ffba16;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 6px;
+    font-weight: 700 !important;
+    font-size: 26px;
+}
+.login_text {
+    color: #ffba16;
+}
+
+.hide-modal{
+	display: none;
+}
+.login_input .form-group.text-right {
+    margin-bottom: 8px;
+}
+.modal{
+	display:block;
+	position: fixed; /* Stay in place */
+    z-index: 999; /* Sit on top */
+    padding-top: 200px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #00b9ee;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+.submit_button.close_btn {
+    background: #d9534f;
+    margin-left: 5px;
+}
+
+.response{
+	color:#3faf6c;
+	font-weight: 400;
+	border-radius: 2px;
+	border:1px solid #3faf6c;
+	padding:3px;
+}

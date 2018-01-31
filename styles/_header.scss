@@ -1,0 +1,217 @@
+
+.header-section {
+    background-color: #00b9ee;
+    padding: 15px 15px 16px 15px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 9px rgba(179, 179, 179, 0.79);
+    position: fixed;
+        top: 26px;
+    z-index: 99;
+    width: 1514px;
+}
+.header-section.scroll {
+    top: 0;
+}
+.header-logo {
+    margin-top: 4px;
+    padding-left: 6px;
+}
+.header-logo img {
+    width: 141px;
+}
+.search-input {
+    font-size: 18px;
+    height: auto;
+}
+
+.list-icons i {
+    font-size: 30px;
+}
+
+.video-header {
+    position: relative;
+    padding: 0 6px 0 28px;
+    float: left;
+}
+.video-button {
+    display: block;
+    width: 100%;
+    background-color: #00b9ee;
+    color: #fff;
+    cursor: pointer;
+    /* margin-left: 20px; */
+    border: 2px solid #4dcef3;
+    border-radius: 5px;
+    font-size: 17px;
+    text-align: left;
+    padding: 9px 53px;
+}
+.video-list{
+	background-color: #00b9ee;
+	padding: 0;
+	min-width: 250px !important;
+	list-style: none;
+
+}
+.video-list a{
+	color: #fff;
+}
+
+/*.video-button:before{
+	content: "";
+    background-image: url(../assets/images/header/video_ico.png);
+    font-weight: normal;
+    text-decoration: inherit;
+    position: absolute;
+    top: 7px;
+    left: 14px;
+    height: 25px;
+    width: 35px;
+    background-repeat: no-repeat;
+}*/
+.menu_list{
+	padding: 0;
+}
+.list_item{
+	list-style: none;
+    background-color: #33b9ee;
+    color: #fff;
+    border-radius: 0 !important;
+    border: none;
+    margin-top: 2px;
+    padding: 9px 15px !important;
+}
+/*.list_item:hover{
+	border-top: 1px solid #4dcef3 !important;
+	border-bottom: 1px solid #4dcef3 !important;
+	background-color: #38bbef !important;
+}*/
+.Dropdown-control{
+	color: white;
+    padding: 6px 6px 6px 35px;
+    font-weight: 700;
+}
+.Dropdown-option {
+    padding: 10px 15px!important;
+    border: 0;
+    border-bottom: 1px solid #53cef0;
+    font-size: 16px;
+    font-weight: 700;
+}
+.Dropdown-option:hover{
+	background-color: #4dcff3 !important; 
+}
+.dropdown:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 13px;
+    top: 11px;
+    background: url(../images/VIDEO-ICON.png);
+    background-repeat: no-repeat;
+    padding: 12px 20px;
+}
+span.Dropdown-arrow:after {
+    content: "\e929";
+    font-family: "icomoon";
+    color: #fff;
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.list-icons-wapper {
+    padding-right: 0;
+    padding-left: 11px;
+}
+.Dropdown-menu {
+    border: 1px solid #4dcff3 !important;
+    position: absolute !important;
+    z-index: 99 !important;
+    background: #33b9ee !important;
+    border: 0;
+    border-radius: 0 5px 0;
+    color: white !important;
+    width: 100%;
+    top: 44px;
+}
+.list-icons{
+	list-style: none !important;
+	margin:0 !important;
+	padding: 0 !important;
+	position: relative !important;
+}
+
+.list-icons li:hover{
+	cursor: pointer;
+}
+
+/*.list-icons .active{
+	background-color:#1b2e9d;
+}*/
+.no_bgcolor{
+	background-color: transparent;
+}
+
+.bgcolor{
+	background-color:#4dcef3;
+}
+.Dropdown-placeholder{
+    font-weight: bold !important;
+}
+.list-icons li {
+    border-radius: 2px;
+    color: #fff;
+    float: left;
+    padding: 0px 13.1px;
+    margin: 9px 0px 0px;
+    font-size: 1px;
+    position: relative;
+}
+.list-icons li i
+{
+    padding: 3px;
+}
+.list-icons li:last-child {
+    padding-right: 0; 
+}
+/*.list-icons li:first-child {
+    padding-left: 0; 
+}*/
+ul.list-icons li:after {
+    content: "";
+    height: 15px;
+    border-right: 2px solid #3bc9f2;
+    top: 0;
+    position: absolute;
+    padding: 0 6px 0 0;
+    border-radius: 2px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+ul.list-icons li:last-child::after {
+    display: none;
+}
+.layout-icons{
+	color:#fff;
+}
+.Dropdown-control {
+    display: block;
+    width: 100%;
+    background-color: #00b9ee;
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid #4dcef3;
+    border-radius: 5px;
+    font-size: 17px;
+    text-align: left;
+    padding: 9px 15px 9px 60px;
+}
+@media only screen and (max-width:1300px){
+	.list-icons li{
+		padding: 5px 3px;
+	}
+}
+

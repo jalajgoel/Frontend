@@ -1,0 +1,97 @@
+/*Sidebar Css*/
+
+
+.sidebar2 {
+    margin-top: 25px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(179, 179, 179, 0.5);
+}
+.trending-heading{
+	background-color: #00b9ee;
+	color: #fff;
+	border-radius: 5px 5px 0 0;
+}
+.trending_text{
+	text-align: justify;
+}
+
+/*Placeholder Color*/
+.trending_search::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #33b9ee;
+}
+.trending_search:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #33b9ee;
+   opacity:  1;
+}
+.trending_search::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #33b9ee;
+   opacity:  1;
+}
+.trending_search:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #33b9ee;
+}
+.trending_search::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #33b9ee;
+}
+
+.trending_search::placeholder { /* Most modern browsers support this now. */
+   color:    #33b9ee;
+}
+/*Placeholder Color End*/
+
+.trending_input{
+	list-style: none;
+	border-bottom: 1px solid #e6e6e6;
+}
+.trending_search{
+	border-color: transparent;
+	box-shadow: none;
+	padding: 17px 15px 17px 28px;
+	font-size: 20px;
+	height: auto;
+}
+.trending_search_icon{
+	border-color: transparent;
+	box-shadow: none;
+	color: #33b9ee;
+	font-size: 25px;
+	background-color: transparent;
+	padding: 6px 12px 6px 7px;
+}
+.trending_data p {
+    text-align: justify;
+    padding: 11px 10px 11px 30px;
+    color: #b6b6b6;
+    font-size: 20px;
+    margin: 0;
+}
+.trending_data{
+	list-style: none;
+	border-bottom: 1px solid #f5f5f5;
+	height: 50px;
+}
+.tending_content{
+	height: 300px;
+	overflow-y: scroll;
+}
+
+
+.tending_content::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: 0;
+	border-radius: 10px;
+	background-color: transparent;
+}
+
+.tending_content::-webkit-scrollbar
+{
+	width: 7px;
+}
+
+.tending_content::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: 0;
+	background-color: #b5b5b5;
+}
